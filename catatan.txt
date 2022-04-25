@@ -1,0 +1,1 @@
+npx create-react-app netflix --template redux //agar menginstall dengan redux

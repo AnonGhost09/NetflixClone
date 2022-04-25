@@ -1,0 +1,52 @@
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.signin__screen {
+  padding: 50px 40px;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+}
+
+.signin__screen > p > strong {
+  cursor: pointer;
+}
+
+.signin__screen > p > strong:hover {
+  text-decoration: underline;
+}
+
+.signin__gray {
+  color: gray;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.signin__form > input {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 20vw;
+  min-width: 280px;
+  margin-bottom: 10px;
+  outline-width: 0;
+}
+
+.signin__form > button {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.8;
+}
+
+.signin__form > button:hover {
+  opacity: 0.9;
+}

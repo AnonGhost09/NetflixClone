@@ -1,0 +1,8 @@
+:root{
+  --nav__color:black;
+}
+
+.App{
+  background-color: black;
+  color:white;
+}

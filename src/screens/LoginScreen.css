@@ -1,0 +1,84 @@
+.loginScreen {
+    background: url("https://www.hunterandbligh.com.au/wp-content/uploads/2017/05/Netflix-Feature.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+}
+
+.loginScreen__background {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+
+.loginScreen__logo {
+    width: 120px;
+    cursor: pointer;
+    padding-left: 20px;
+    object-fit: contain;
+}
+
+.loginScreen__button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.loginScreen__gradient {
+    position: absolute;
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.8) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginScreen__body>h1 {
+    font-size: 3.123rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body {
+    z-index: 1;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.loginScreen__form {
+    margin-top: 30px;
+}
+
+.loginScreen__form>form>input {
+    margin-top: 15px;
+    width: 40%;
+    padding: 10px;
+    outline-width: 0;
+  
+}
+
+.loginScreen__form>form>button {
+    color: white;
+    padding: 12px;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.loginScreen__form>form>button:hover {
+    opacity: 0.9;
+}
